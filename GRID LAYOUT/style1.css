@@ -18,12 +18,13 @@ main{
     "e c c"
     "e d d" ;
     
-    grid-template-columns: 150px 1fr ;
-    grid-template-columns: 180px 1fr;
-    grid-template-rows: 150px 1fr;
+    grid-template-columns: 150px 2fr 1fr ;
+    grid-template-columns: 180px 2fr 1fr;
+    grid-template-rows: 150px 4fr 2fr;
     gap: 12px;
     width: 50%;
     margin: auto;
+    
 }
 main div{
     padding: 2rem;
